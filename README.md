@@ -11,11 +11,31 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
 - Especificações de acesso.
 - Operações e métodos disponíveis.
 
- ### Tarefas
+ ### Tarefa Prática
  
- 1. #
- 2. #
- 3. #
+ 1. Realizar teste com o SOAP Client, http://soapclient.com/xml/soapresponder.wsdl
+
+ 2. Instalar o software SOAP UI na versão Open Source, https://www.soapui.org
+ 
+ 3. Importar o endereço do SOAP Client (http://soapclient.com/xml/soapresponder.wsdl) no Sofware SOAP UI
+ 
+ 4. SOAP - New Open Project - Initial WSDL : http://soapclient.com/xml/soapresponder.wsdl
+ 
+ 5. Analisar no arquivo.wsdl, as propriedades SoapResponderBinding e Method1
+ 
+ 6. Fazer um request e verificar se comunicou com sucesso.
+ 
+ 7. Analisar a biblioteca Zeep: Python SOAP client
+ 
+ 8. Importar a biblioteca Zeep e fazer a instalação com get-pip.py 
+ 
+ 9. Executar os comandos no terminal de importação e instalação do Python SOAP client
+ 
+ 10. Criar uma pasta WebServices, com dois arquivos: soap.py e rest.py
+ 
+ 11. No arquivo soap.py realizar um teste de validação e executar o comando no terminal, python soap.py
+ 
+ 12. Os parametros passados na linha de comando do client.service.Method1 devem ser retornados no terminal.
 
 ### Links
 
