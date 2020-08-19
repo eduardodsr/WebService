@@ -33,11 +33,16 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
  
  10. Criar uma pasta WebServices, com dois arquivos: soap.py e rest.py
  
- 11. No arquivo soap.py realizar um teste de validação e executar o comando no terminal, python soap.py
+ 11. No arquivo soap.py realizar um teste passando meu nome e sobrenome e executar o comando no terminal, python soap.py
  
- 12. Os parametros passados na linha de comando do client.service.Method1 devem ser retornados no terminal.
+ 12. Os parametros passados (nome e sobrenome) devem ser retornados na consulta do terminal.
+ 
 
-### Links
+### Resultado Final da Tarefa Prática:
+
+
+
+### Links utilizados na tarefa prática de WebServices
 
 ``` link: ```  http://soapclient.com/xml/soapresponder.wsdl 
 
