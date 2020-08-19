@@ -11,6 +11,12 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
 - Especificações de acesso.
 - Operações e métodos disponíveis.
 
+ ### Tarefas
+ 
+ 1. #
+ 2. #
+ 3. #
+
 ### Links
 
 ``` link: ```  http://soapclient.com/xml/soapresponder.wsdl 
