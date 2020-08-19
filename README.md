@@ -40,6 +40,10 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
 
 ### Resultado Final da Tarefa Prática:
 
+![](https://github.com/eduardodsr/WebService/blob/master/python/SoapUI.png?raw=true)
+
+![](https://github.com/eduardodsr/WebService/blob/master/python/soap.py.png?raw=true)
+
 
 
 ### Links utilizados na tarefa prática de WebServices
