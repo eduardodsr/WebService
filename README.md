@@ -4,6 +4,8 @@
  
  ### Projeto WebService - Soap Client - Python Zeep
  
+  ![](https://docs.python-zeep.org/en/master/_static/zeep-logo.png?raw=true)
+ 
 Webservices são soluções adotadas para integração entre sistemas distintos. Através de sua comunicação é possível que diferentes aplicações se comuniquem de forma transparente, independente da tecnologia utilizada. Existem diversos sistemas antigos que possuem integração com outros mais atuais, tudo isso através de um webservice.
 
 Muitos destes webservices trabalham com XML (linguagem de marcação para padronizar a comunicação dos dados através de um padrão) e os protocolos HTTP/HTTPS (para o transporte dos dados). Especificamente com o protocolo SOAP (Simple Object Access Protocol). Geralmente é feito o uso de um WSDL (Web Service Definition Language), se trata de um documento disponível onde contém todas as especificações do Webservice, entre elas:
