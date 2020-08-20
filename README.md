@@ -13,7 +13,7 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
 - Especificações de acesso.
 - Operações e métodos disponíveis.
 
- ### Tarefa Prática
+ ### WebService - Atividades | Tarefa Prática
  
  1. Realizar teste com o SOAP Client, http://soapclient.com/xml/soapresponder.wsdl
 
