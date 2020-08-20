@@ -80,9 +80,9 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
 </service>
 </definitions>
 ``` 
-
  
-  ``` link: http://soapclient.com/xml/soapresponder.wsdl
+  ``` link XML:  ``` http://soapclient.com/xml/soapresponder.wsdl
+  
 
 ### Resultado Final da Tarefa Prática:
 
