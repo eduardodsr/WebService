@@ -3,8 +3,10 @@
  ### Fundamentos de Arquitetura de Sistemas 
  
  ### Projeto WebService - Soap Client - Python Zeep
- 
-  ![](https://docs.python-zeep.org/en/master/_static/zeep-logo.png?raw=true)
+   
+ <p align="center">
+  <img src=https://docs.python-zeep.org/en/master/_static/zeep-logo.png?raw=true" alt="imagem" width="200px" />
+ </p>
  
 Webservices são soluções adotadas para integração entre sistemas distintos. Através de sua comunicação é possível que diferentes aplicações se comuniquem de forma transparente, independente da tecnologia utilizada. Existem diversos sistemas antigos que possuem integração com outros mais atuais, tudo isso através de um webservice.
 
