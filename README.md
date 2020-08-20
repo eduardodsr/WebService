@@ -40,9 +40,10 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
   
  ### This XML file does not appear to have any style information associated with it. The document tree is shown below.
  
- ``` link: http://soapclient.com/xml/soapresponder.wsdl
+
  
-``` <definitions xmlns:tns="http://www.SoapClient.com/xml/SoapResponder.wsdl" xmlns:xsd1="http://www.SoapClient.com/xml/SoapResponder.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="SoapResponder" targetNamespace="http://www.SoapClient.com/xml/SoapResponder.wsdl">
+``` 
+<definitions xmlns:tns="http://www.SoapClient.com/xml/SoapResponder.wsdl" xmlns:xsd1="http://www.SoapClient.com/xml/SoapResponder.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="SoapResponder" targetNamespace="http://www.SoapClient.com/xml/SoapResponder.wsdl">
 <types>
 <schema xmlns="http://www.w3.org/1999/XMLSchema" targetNamespace="http://www.SoapClient.com/xml/SoapResponder.xsd"> </schema>
 </types>
@@ -60,7 +61,16 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
 </operation>
 </portType>
 <binding name="SoapResponderBinding" type="tns:SoapResponderPortType">
-...
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+<operation name="Method1">
+<soap:operation soapAction="http://www.SoapClient.com/SoapObject"/>
+<input>
+<soap:body use="encoded" namespace="http://www.SoapClient.com/xml/SoapResponder.xsd" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</input>
+<output>
+<soap:body use="encoded" namespace="http://www.SoapClient.com/xml/SoapResponder.xsd" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+</output>
+</operation>
 </binding>
 <service name="SoapResponder">
 <documentation>A SOAP service that echoes input parameters in the response</documentation>
@@ -68,9 +78,11 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
 <soap:address location="http://www.soapclient.com/xml/soapresponder.wsdl"/>
 </port>
 </service>
- ``` </definitions>
+</definitions>
+``` 
 
  
+  ``` link: http://soapclient.com/xml/soapresponder.wsdl
 
 ### Resultado Final da Tarefa Prática:
 
