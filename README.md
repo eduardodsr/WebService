@@ -37,6 +37,40 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
  
  12. Os parametros passados (nome e sobrenome) devem ser retornados na consulta do terminal.
  
+  
+ ### This XML file does not appear to have any style information associated with it. The document tree is shown below.
+ 
+ ``` link: http://soapclient.com/xml/soapresponder.wsdl
+ 
+``` <definitions xmlns:tns="http://www.SoapClient.com/xml/SoapResponder.wsdl" xmlns:xsd1="http://www.SoapClient.com/xml/SoapResponder.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="SoapResponder" targetNamespace="http://www.SoapClient.com/xml/SoapResponder.wsdl">
+<types>
+<schema xmlns="http://www.w3.org/1999/XMLSchema" targetNamespace="http://www.SoapClient.com/xml/SoapResponder.xsd"> </schema>
+</types>
+<message name="Method1">
+<part name="bstrParam1" type="xsd:string"/>
+<part name="bstrParam2" type="xsd:string"/>
+</message>
+<message name="Method1Response">
+<part name="bstrReturn" type="xsd:string"/>
+</message>
+<portType name="SoapResponderPortType">
+<operation name="Method1" parameterOrder="bstrparam1 bstrparam2 return">
+<input message="tns:Method1"/>
+<output message="tns:Method1Response"/>
+</operation>
+</portType>
+<binding name="SoapResponderBinding" type="tns:SoapResponderPortType">
+...
+</binding>
+<service name="SoapResponder">
+<documentation>A SOAP service that echoes input parameters in the response</documentation>
+<port name="SoapResponderPortType" binding="tns:SoapResponderBinding">
+<soap:address location="http://www.soapclient.com/xml/soapresponder.wsdl"/>
+</port>
+</service>
+ ``` </definitions>
+
+ 
 
 ### Resultado Final da Tarefa Prática:
 
