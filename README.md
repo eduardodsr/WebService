@@ -4,6 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/eduardodsr/WebService)
 ![GitHub top language](https://img.shields.io/github/languages/top/eduardodsr/WebService)
 ![GitHub language count](https://img.shields.io/github/languages/count/eduardodsr/WebService)
+![Visitor](https://visitor-badge.glitch.me/badge?page_id=eduardodsr.WebService
  
  ## Fundamentos de Arquitetura de Sistemas 
  
@@ -49,7 +50,7 @@ Muitos destes webservices trabalham com XML (linguagem de marcação para padr
   
  ### XML 
  
-``` 
+```xml 
 <definitions xmlns:tns="http://www.SoapClient.com/xml/SoapResponder.wsdl" xmlns:xsd1="http://www.SoapClient.com/xml/SoapResponder.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="SoapResponder" targetNamespace="http://www.SoapClient.com/xml/SoapResponder.wsdl">
 <types>
 <schema xmlns="http://www.w3.org/1999/XMLSchema" targetNamespace="http://www.SoapClient.com/xml/SoapResponder.xsd"> </schema>
